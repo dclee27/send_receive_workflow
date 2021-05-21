@@ -7,4 +7,4 @@
       set_stats:
         data:
           first_fact: "I am from the first playbook"
-          second_fact: "I am from the first playbook"
+          second_fact: "sender var"
