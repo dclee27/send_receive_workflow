@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  gather_facts: no
+
+  tasks:
+    - name: display generated first fact
+      debug:
+        msg: "{{ first_fact }}"
+    - name: display generated first fact
+      debug:
+        msg: "{{ second_fact }}"
